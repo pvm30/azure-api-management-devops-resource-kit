@@ -50,6 +50,6 @@ api:
         body: 
           bytes: 512
     enableHttpCorrelationHeaders: true
-outputLocation: .
+outputLocation: .\generatedTemplates
 linked: false
 linkedTemplatesBaseUrl : https://mystorageaccount.blob.core.windows.net/mycontainer
