@@ -9,8 +9,8 @@ apiVersionSet:
     versionHeaderName: versionHeader
 api:
   name: myAPI
-  openApiSpec: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\OpenApiSpecs\swaggerPetstore.json
-  policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFiles\XMLPolicies\apiPolicyHeaders.xml
+  openApiSpec: .\Creator\ExampleFiles\OpenAPISpecs\swaggerPetstore.json
+  policy: .\Creator\ExampleFiles\XMLPolicies\apiPolicyHeaders.xml
   suffix: conf
   subscriptionRequired: true
   apiVersion: v1
@@ -20,9 +20,9 @@ api:
   revisionDescription: My first revision
   operations:
     addPet:
-      policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\XMLPolicies\operationRateLimit.xml
+      policy: .\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
     deletePet:
-      policy: C:\Users\myUsername\Projects\azure-api-management-devops-example\src\APIM_ARMTemplate\apimtemplate\Creator\ExampleFile\XMLPolicies\operationRateLimit.xml
+      policy: .\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
   products: starter, platinum
   diagnostic:
     name: applicationinsights
@@ -50,6 +50,6 @@ api:
         body: 
           bytes: 512
     enableHttpCorrelationHeaders: true
-outputLocation: C:\Users\myUsername\GeneratedTemplates
+outputLocation: .
 linked: false
 linkedTemplatesBaseUrl : https://mystorageaccount.blob.core.windows.net/mycontainer
