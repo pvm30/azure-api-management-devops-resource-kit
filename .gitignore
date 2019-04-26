@@ -37,4 +37,6 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
+# Ignored folders for my testing
 creatorGeneratedTemplates
+creatorGeneratedTemplatesLinked

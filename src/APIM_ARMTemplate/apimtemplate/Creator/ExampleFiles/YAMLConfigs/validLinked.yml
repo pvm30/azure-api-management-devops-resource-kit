@@ -1,0 +1,55 @@
+version: 0.0.1
+apimServiceName: apiservicel6jgw3ao2ox6g
+apiVersionSet:
+    id: myAPIVersionSetID
+    displayName: swaggerPetstoreVersionSetLinked
+    description: a description
+    versioningScheme: Query
+    versionQueryName: versionQuery
+    versionHeaderName: versionHeader
+api:
+  name: myCreatorGeneratedAPI
+  openApiSpec: .\Creator\ExampleFiles\OpenAPISpecs\swaggerPetstore.json
+  policy: .\Creator\ExampleFiles\XMLPolicies\apiPolicyHeaders.xml
+  suffix: conf
+  subscriptionRequired: true
+  apiVersion: v1
+  apiVersionDescription: My first version
+  #apiVersionSetId: myID
+  revision: 1
+  revisionDescription: My first revision
+#  operations:
+#    addPet:
+#      policy: .\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
+#    deletePet:
+#      policy: .\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
+  products: starter, unlimited
+#  diagnostic:
+#    name: applicationinsights
+#    alwaysLog: allErrors
+#    loggerId: /subscriptions/33eea26c5-cf88-4924-8400-013f731899fd/resourceGroups/MyResourceGroup/providers/Microsoft.ApiManagement/service/MyAPIMService/loggers/myAppInsights
+#    sampling:
+#      samplingType: fixed
+#      percentage: 50
+#    frontend:
+#      request:
+#        headers:
+#        body:
+#          bytes: 512
+#      response:
+#        headers:
+#        body:
+#          bytes: 512
+#    backend:
+#      request:
+#        headers:
+#        body:
+#          bytes: 512
+#      response:
+#        headers:
+#        body:
+#          bytes: 512
+#    enableHttpCorrelationHeaders: true
+outputLocation: .\creatorGeneratedTemplatesLinked
+linked: true
+linkedTemplatesBaseUrl : https://mystorageaccount.blob.core.windows.net/mycontainer
