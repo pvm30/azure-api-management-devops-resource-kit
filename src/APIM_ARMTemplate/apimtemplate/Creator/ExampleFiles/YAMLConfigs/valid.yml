@@ -1,5 +1,5 @@
 version: 0.0.1
-apimServiceName: MyAPIMService
+apimServiceName: apiservicel6jgw3ao2ox6g
 apiVersionSet:
     id: myAPIVersionSetID
     displayName: swaggerPetstoreVersionSetLinked
