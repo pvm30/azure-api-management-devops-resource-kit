@@ -23,7 +23,7 @@ api:
 #      policy: .\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
 #    deletePet:
 #      policy: .\Creator\ExampleFiles\XMLPolicies\operationRateLimit.xml
-  products: starter, platinum
+  products: starter, unlimited
 #  diagnostic:
 #    name: applicationinsights
 #    alwaysLog: allErrors
