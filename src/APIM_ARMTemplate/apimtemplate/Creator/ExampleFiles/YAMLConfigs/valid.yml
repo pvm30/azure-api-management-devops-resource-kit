@@ -8,7 +8,7 @@ apiVersionSet:
     versionQueryName: versionQuery
     versionHeaderName: versionHeader
 api:
-  name: myAPI
+  name: myCreatorGeneratedAPI
   openApiSpec: .\Creator\ExampleFiles\OpenAPISpecs\swaggerPetstore.json
   policy: .\Creator\ExampleFiles\XMLPolicies\apiPolicyHeaders.xml
   suffix: conf
@@ -50,6 +50,6 @@ api:
 #        body:
 #          bytes: 512
 #    enableHttpCorrelationHeaders: true
-outputLocation: .\generatedTemplates
+outputLocation: .\creatorGeneratedTemplates
 linked: false
 linkedTemplatesBaseUrl : https://mystorageaccount.blob.core.windows.net/mycontainer
