@@ -40,3 +40,4 @@ msbuild.wrn
 # Ignored folders for my testing
 creatorGeneratedTemplates
 creatorGeneratedTemplatesLinked
+extractorGeneratedTemplates
