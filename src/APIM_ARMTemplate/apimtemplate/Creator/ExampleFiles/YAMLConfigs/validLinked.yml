@@ -52,4 +52,4 @@ api:
 #    enableHttpCorrelationHeaders: true
 outputLocation: .\creatorGeneratedTemplatesLinked
 linked: true
-linkedTemplatesBaseUrl : https://mystorageaccount.blob.core.windows.net/mycontainer
+linkedTemplatesBaseUrl : https://mystorageaccountpvm14.blob.core.windows.net/creatorgeneratedtemplateslinked
